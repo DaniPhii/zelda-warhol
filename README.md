@@ -1,4 +1,4 @@
-Zelda-Warhol
+Zelda Warhol
 ============
 
 Copyright © 2014 Dani Poveda.
