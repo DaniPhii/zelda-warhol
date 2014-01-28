@@ -16,3 +16,6 @@
 *.exe
 *.out
 *.app
+*.nds
+*.elf
+*.arm9

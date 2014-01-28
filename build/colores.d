@@ -1,0 +1,1 @@
+colores.o: colores.s

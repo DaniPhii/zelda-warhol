@@ -1,0 +1,1 @@
+warhol.o: warhol.s
