@@ -1,13 +1,20 @@
-# Object files
+# Object files and others
+*.d
+*.h
+*.ko
+*.map
 *.o
+*.s
 *.ko
 
-# Libraries
+# Libraries and binaries
 *.lib
 *.a
 
 # Shared objects (inc. Windows DLLs)
+*.bin
 *.dll
+*.db
 *.so
 *.so.*
 *.dylib

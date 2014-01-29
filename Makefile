@@ -7,7 +7,7 @@ $(error "Please set DEVKITARM in your environment. export DEVKITARM=<path to>dev
 endif
 
 ifeq ($(strip $(DEVKITPRO)),)
-$(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>devkitPro)
+$(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>devkitPro")
 endif
 
 include $(DEVKITARM)/base_rules
@@ -15,20 +15,20 @@ include $(DEVKITARM)/base_rules
 LIBNDS	:=	$(DEVKITPRO)/libnds
 
 ifeq ($(strip $(GAME_TITLE)),)
-GAME_TITLE	:=	Zelda's Warhol (by Dani)
+GAME_TITLE	:=	Zelda Warhol
 # $(notdir $(OUTPUT))
 endif
 
 ifeq ($(strip $(GAME_SUBTITLE1)),)
-GAME_SUBTITLE1	:=	Programa creado por Daniel Poveda Parrilla. Imagen descargada de Internet. Efecto Warhol aplicado a la imagen, incluida en el programa.
+GAME_SUBTITLE1	:=	Copyright © 2014 Dani Poveda.
 endif
 
 ifeq ($(strip $(GAME_SUBTITLE2)),)
-GAME_SUBTITLE2	:=	Curso 2009/2010. Estructura de computadores. UCLM. Proyecto que por culpa de un puñetero test supuestamente fácil, que suspendí con un 4, ignoraron y nunca corrigieron... Pues ya que no me lo han mirado, lo he modificado a mi gusto.
+GAME_SUBTITLE2	:=	GNU GPL V3.
 endif
 
 ifeq ($(strip $(GAME_ICON)),)
-GAME_ICON      :=      /home/dani/warhol/icon.bmp
+GAME_ICON	:=	$(CURDIR)/icon.bmp
 # $(DEVKITPRO)/libnds/icon.bmp
 endif
 
