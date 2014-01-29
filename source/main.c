@@ -154,7 +154,7 @@ int main(void) {
 			if(iniciox<8 && inicioy<6) {
 				if(finx==9 && finy<8) {
 					colores(iniciox, inicioy, finx, finy, pal, selector, k);
-				}
+				} // Enviamos los parámetros al método "colores".
 			}
 		}
 		swiWaitForVBlank();
