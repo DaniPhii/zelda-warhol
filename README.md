@@ -1,7 +1,7 @@
 Zelda Warhol
 ============
 
-Copyright © 2014 [Dani Poveda](http://daniphii.blog.fc2.com/).
+Copyright © 2015 [Dani Poveda](http://daniphii.blog.fc2.com/).
 ____________
 
 Project for NDS to apply a [Warhol filter](http://en.wikipedia.org/wiki/Marilyn_Diptych) to a picture of [Zelda](http://en.wikipedia.org/wiki/Princess_Zelda).
