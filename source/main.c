@@ -1,10 +1,3 @@
-/* 
-
-
-    Zelda Warhol for NDS. Copyright © 2018 Dani Poveda.
-
-
-*/
 #include <nds.h>
 #include <stdio.h>
 #include "warhol.h" // Imagen a cargar para aplicar el efecto.
